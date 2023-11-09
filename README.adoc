@@ -1,2 +1,11 @@
-# Convert Putty key to OpenSSH key
-puttygen -O private-openssh-new -o <outfile> <infile>
+Converting Putty key to OpenSSH key
+
+---
+puttygen -O private-openssh-new -o <outfile> <infile>.ppk
+----
+
+Converting OpenSSH key to Putty key
+
+----
+puttygen -O private -o <outfile>.ppk <infile>
+----
